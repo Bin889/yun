@@ -1,7 +1,7 @@
 import { TEST_ADDRESS_NEVER_USE, TEST_ADDRESS_NEVER_USE_SHORTENED } from '../../support/commands'
 
 describe('Home Page', () => {
-  beforeEach(() => cy.visit('/'))
+  beforeEach(() => cy.visit('./views/swap'))
   it('loads home page', () => {
     cy.get('#homepage-hero')
   })
